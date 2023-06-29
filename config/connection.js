@@ -1,6 +1,6 @@
 //add mongoose connection data in here
-const {connect, connection} = require('mongoose');
+const mongoose = require('mongoose');
 
-connect('mongodb://127.0.0.1.27017/socialmediaapi');
+mongoose.connect('mongodb://127.0.0.1:27017/socialmediaapi');
 
-module.exports = connection;
+module.exports = mongoose.connection;

@@ -1,4 +1,4 @@
-//add functions for user with module.export in here
+//add functions for friend routes
 const User = require('../models/user');
 
 module.exports = {
